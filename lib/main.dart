@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp()); //19710037
+void main() => runApp(MyApp()); 
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -9,8 +9,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Belajar Flutter',
-      theme: ThemeData(primarySwatch: Colors.red), //Fauzani Rahman
-      home: Home(),
+      theme: ThemeData(primarySwatch: Colors.red),
+      home: Home(), //Fauzani Rahman
     );
   }
 }
@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.deepPurple,
-        title: Text(
+        title: Text( //19710037
           'Flutter App',
           style: TextStyle(
               color: Colors.blue, fontWeight: FontWeight.bold, fontSize: 30),
